@@ -19,7 +19,8 @@ defmodule RaffleyWeb.Router do
     greeting = ~w(Hi Howdy Hello) |> Enum.random()
 
     conn = assign(conn, :greeting, greeting)
-    IO.inspect(conn)
+
+    # IO.inspect(conn)
 
     conn
   end
